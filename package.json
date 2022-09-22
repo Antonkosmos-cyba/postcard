@@ -1,0 +1,22 @@
+{
+  "name": "postcard",
+  "version": "1.0.0",
+  "description": "Шаблон для создания визиток (окрыток) с применением tailwind",
+  "main": "index.js",
+  "scripts": {
+    "tail": "npx tailwindcss -i ./src/input.css -o ./src/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonkosmos-cyba/postcard.git"
+  },
+  "author": "anton cyba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antonkosmos-cyba/postcard/issues"
+  },
+  "homepage": "https://github.com/Antonkosmos-cyba/postcard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
