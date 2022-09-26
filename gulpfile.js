@@ -14,7 +14,7 @@ const cheerio = require('gulp-cheerio')
 const replace = require('gulp-replace')
 const gulpBabel = require('gulp-babel')
 const gulpUglify = require('gulp-uglify')
-// const del = require('del')
+const clean = require('gulp-clean')
 // const sync = require('browser-sync').create()
 // import imagemin from 'gulp-imagemin';
 function html(){
@@ -30,7 +30,7 @@ function html(){
 }
 
 function css() {
-    return src('src/css/index.css')
+    return src('src/index.css')
     // .pipe(sass())
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 2 versions']
@@ -48,8 +48,9 @@ function js(){
         .pipe(dest('dist'))
     }
 
-function clear() {
-    return del('dist')
+function del() {
+    return src('dist')
+    .pipe(clean())
 }
 
 function images() {
@@ -96,6 +97,6 @@ function font(){
 //     watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
     // watch('src/js/**.js', series(js)).on('change', sync.reload)
 // }
-exports.build = series( images, media, font, js, css, html)
+exports.build = series( del, images, media, font, js, css, html)
 // exports.serve = series(clear, images, font, js, scss, html, serve)
-// exports.clear = clear
+// exports.clear = del

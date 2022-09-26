@@ -4,7 +4,7 @@
   "description": "Шаблон для создания визиток (окрыток) с применением tailwind",
   "main": "index.js",
   "scripts": {
-    "tail": "npx tailwindcss -i ./src/input.css -o ./src/css/index.css --watch"
+    "tail": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-cheerio": "^1.0.0",
+    "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-file-include": "^2.3.0",
