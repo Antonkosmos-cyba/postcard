@@ -22,6 +22,7 @@ function html(){
     // .pipe(include({
     //     prefix: '@@'
     // }))
+    
     .pipe(webphtml())
     .pipe(htmlmin({
         collapseWhitespace: true
@@ -41,7 +42,7 @@ function css() {
 }
 
 function js(){
-    return src('src/*.js')
+    return src('src/index.js')
         .pipe(gulpBabel())
         .pipe(gulpUglify())
         // .pipe(concat('index.js'))
@@ -55,7 +56,7 @@ function del() {
 
 function images() {
     return src('src/images/**/*.{jpg,png,jpeg}',
-    '!src/images/icon/*'
+    // '!src/images/icon/*'
     )
 
     .pipe(
