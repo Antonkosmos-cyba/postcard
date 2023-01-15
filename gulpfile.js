@@ -23,7 +23,7 @@ function html(){
     //     prefix: '@@'
     // }))
     
-    .pipe(webphtml())
+    // .pipe(webphtml())
     .pipe(htmlmin({
         collapseWhitespace: true
     }))
@@ -31,14 +31,14 @@ function html(){
 }
 
 function css() {
-    return src('src/index.css')
+    return src('src/css/index.css')
     // .pipe(sass())
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 2 versions']
     }))
     .pipe(csso())
     // .pipe(concat('index.css'))
-    .pipe(dest('dist'))
+    .pipe(dest('dist/css'))
 }
 
 function js(){
@@ -98,6 +98,6 @@ function font(){
 //     watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
     // watch('src/js/**.js', series(js)).on('change', sync.reload)
 // }
-exports.build = series( del, images, media, font, js, css, html)
+exports.build = series(  images, media, font, js, css, html)
 // exports.serve = series(clear, images, font, js, scss, html, serve)
 // exports.clear = del
