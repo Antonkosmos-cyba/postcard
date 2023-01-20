@@ -31,7 +31,7 @@ function html(){
 }
 
 function css() {
-    return src('src/css/index.css')
+    return src('src/css/**.css')
     // .pipe(sass())
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 2 versions']
@@ -55,7 +55,7 @@ function del() {
 }
 
 function images() {
-    return src('src/images/**/*.{jpg,png,jpeg}',
+    return src('src/images/**/*.{jpg,png,jpeg,gif}',
     // '!src/images/icon/*'
     )
 
@@ -66,8 +66,8 @@ function images() {
     )
     .pipe(dest('dist/images'))
 
-    // .pipe(src('src/images/**/*.{jpg,png,jpeg,svg}'
-    // ))
+    .pipe(src('src/images/**/*.{jpg,png,jpeg,svg,gif}'
+    ))
 
     // .pipe(imagemin(
     // {
@@ -77,7 +77,7 @@ function images() {
     //     optimizationLevel: 3 //0 to7 
     // }
     // ))
-    // .pipe(dest('dist/images'))
+    .pipe(dest('dist/images'))
 }
 
 function media(){

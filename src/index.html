@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/muzik.css">
     <title>с днём рождения дедушка</title>
 </head>
 
 <body style="background-image: url('./images/sari4.jpg');"
     class="bg-no-repeat bg-cover bg-fixed">
     <div class="px-3">
-        <div class=" h-auto max-w-[500px] mx-auto mt-5 border-[4px] border-red-400">
+        <div class=" h-auto max-w-[500px] mx-auto mt-5 border-[4px] border-separate border-red-400">
             <div class="text-[50px] pb-[14px] mt-[10px] mb-[10px] text-center leading-[60px] text-white font-Caveat-Regular">
-                <p>с днём рождения дедушка</p>
+                <p>С Днём Рождения Дедушка!!!</p>
             </div>
         </div>
 
@@ -24,11 +25,11 @@
         </div>
 
         <div
-            class="h-auto max-w-[500px] bg-white opacity-[1] backdrop-blur-xl mx-auto mt-5 border-[4px]  border-red-400">
+            class="h-auto max-w-[500px] bg-white opacity-[1] backdrop-blur-xl mx-auto mt-5 mb-5 border-[4px]  border-red-400">
             <div classs="w-[100%] h-auto">
                 <p class="text-cente p-3 text-[24px] leading-6 text-blue-800  font-Roboto-Regular">
                     Поздравляю с днем рождения,
-                    Дедушка, мой дорогой.
+                    Дедушка, мой дорогой!
                     И от всей души желаю
                     Жить без горя и забот.
 <br>
@@ -47,18 +48,41 @@
                 </p>
             </div>
         </div>
-<!-- 
-        <div class="max-w-[500px] h-auto mx-auto mt-5">
-            <iframe width="100%" height="300px" src="https://rutube.ru/play/embed/c8b0ee5ed9d8553673d758f346a44fa0" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>  
-        </div> -->
 
-        <div class="h-24 max-w-[310px] bg-white  max-h-[62px] mx-auto mt-5 mb-2 border-[4px]  border-blue-400">
-            <audio controls src="media/ded.mp3"></audio>
+        <div class="max-w-[500px] h-auto mx-auto mt-5 mb-5 border-[4px] border-red-400">
+            <video src="./media/video/deda.mp4" controls width="100%" height="300">
+            </video>
         </div>
+
+        <section class="mb-5 border-[4px] border-red-400">
+            <img class="img2" src="./images/da.jpg">
+            <div class="bruch">
+                <div class='left'>
+                    <h1>певица Дарья</h1> 
+                    <h2>песня: <i><br>"C днем рождения!"</i></h2>
+                </div>
+                <div class='right'>
+                    <audio id="demo" src="./media/muz/ded.mp3">
+                    </audio>
+                    <button id='play' type="submit" style="background-image: url('./images/play.png');"
+                    class="bg-no-repeat bg-center bg-cover"></button>
+                    <button id='pause' type="submit" style="background-image: url('./images/pauza.png');"
+                    class="bg-no-repeat bg-center bg-cover "></button>
+                </div>
+    
+            </div>
+        </section>
+    
+        <script>
+            document.getElementById("play").onclick = function () {
+                document.getElementById('demo').play();
+            };    
+            document.getElementById("pause").onclick = function () {
+                document.getElementById('demo').pause();
+            }
+        </script> 
     </div>
-    <script>
-        src = "index.js"
-    </script>
+
 </body>
 
 </html>
