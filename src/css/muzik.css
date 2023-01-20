@@ -20,7 +20,7 @@ section {
 .left {
     float: left;
     width: 50%;
-    text-shadow: rgb(8, 75, 8) 2px 1px;
+    /* text-shadow: rgb(8, 75, 8) 2px 1px; */
 }
 
 .right {
@@ -67,11 +67,4 @@ section {
 
 #pause:focus {
     outline: none;
-}
-
-h1 {
-    font-size: 1.5em;
-    color: rgb(255, 254, 254);
-    font-size: 26px;
-    margin-left: 10px;
 }
