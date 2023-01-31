@@ -1,3 +1,5 @@
 #bdgroove {
     border: groove;
+    border-color: rgb(246, 255, 0);
+    border-width: 15px;
 }

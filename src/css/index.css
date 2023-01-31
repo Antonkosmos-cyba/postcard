@@ -603,6 +603,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .h-auto {
   height: auto;
 }
@@ -617,6 +621,10 @@ video {
 
 .snap-center {
   scroll-snap-align: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .rounded-full {
@@ -654,84 +662,12 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-\[length\:200px_100px\] {
-  background-size: 200px 100px;
-}
-
-.bg-\[length\:400px_100px\] {
-  background-size: 400px 100px;
-}
-
-.bg-\[length\:400px_600px\] {
-  background-size: 400px 600px;
-}
-
-.bg-\[length\:900px_900px\] {
-  background-size: 900px 900px;
-}
-
-.bg-\[length\:9000px_9000px\] {
-  background-size: 9000px 9000px;
-}
-
-.bg-\[length\:1100px_1100px\] {
-  background-size: 1100px 1100px;
-}
-
-.bg-\[length\:1100px_1000px\] {
-  background-size: 1100px 1000px;
-}
-
-.bg-\[length\:1000px_1000px\] {
-  background-size: 1000px 1000px;
-}
-
-.bg-\[length\:2000px_1000px\] {
-  background-size: 2000px 1000px;
-}
-
-.bg-\[length\:1200px_1000px\] {
-  background-size: 1200px 1000px;
-}
-
-.bg-\[length\:1300px_1000px\] {
-  background-size: 1300px 1000px;
-}
-
-.bg-\[length\:1600px_1000px\] {
-  background-size: 1600px 1000px;
-}
-
-.bg-\[length\:1500px_1000px\] {
-  background-size: 1500px 1000px;
-}
-
-.bg-\[length\:1500px_100px\] {
-  background-size: 1500px 100px;
-}
-
-.bg-\[length\:1500px_300px\] {
-  background-size: 1500px 300px;
-}
-
-.bg-\[length\:1500px_600px\] {
-  background-size: 1500px 600px;
-}
-
-.bg-\[length\:1500px_800px\] {
-  background-size: 1500px 800px;
-}
-
-.bg-\[length\:1500\%_800\%\] {
-  background-size: 1500% 800%;
-}
-
 .bg-\[length\:100\%_100\%\] {
   background-size: 100% 100%;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -740,10 +676,6 @@ video {
 
 .bg-center {
   background-position: center;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
 }
 
 .bg-no-repeat {
