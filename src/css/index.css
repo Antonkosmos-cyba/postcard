@@ -603,10 +603,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
-}
-
 .h-auto {
   height: auto;
 }
@@ -623,26 +619,119 @@ video {
   scroll-snap-align: center;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-\[5px\] {
+  border-width: 5px;
+}
+
 .border-\[4px\] {
   border-width: 4px;
 }
 
-.border-dashed {
-  border-style: dashed;
-}
-
-.border-red-400 {
+.border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(248 113 113 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-red-900 {
+.border-yellow-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(253 224 71 / var(--tw-border-opacity));
+}
+
+.bg-slate-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-\[length\:200px_100px\] {
+  background-size: 200px 100px;
+}
+
+.bg-\[length\:400px_100px\] {
+  background-size: 400px 100px;
+}
+
+.bg-\[length\:400px_600px\] {
+  background-size: 400px 600px;
+}
+
+.bg-\[length\:900px_900px\] {
+  background-size: 900px 900px;
+}
+
+.bg-\[length\:9000px_9000px\] {
+  background-size: 9000px 9000px;
+}
+
+.bg-\[length\:1100px_1100px\] {
+  background-size: 1100px 1100px;
+}
+
+.bg-\[length\:1100px_1000px\] {
+  background-size: 1100px 1000px;
+}
+
+.bg-\[length\:1000px_1000px\] {
+  background-size: 1000px 1000px;
+}
+
+.bg-\[length\:2000px_1000px\] {
+  background-size: 2000px 1000px;
+}
+
+.bg-\[length\:1200px_1000px\] {
+  background-size: 1200px 1000px;
+}
+
+.bg-\[length\:1300px_1000px\] {
+  background-size: 1300px 1000px;
+}
+
+.bg-\[length\:1600px_1000px\] {
+  background-size: 1600px 1000px;
+}
+
+.bg-\[length\:1500px_1000px\] {
+  background-size: 1500px 1000px;
+}
+
+.bg-\[length\:1500px_100px\] {
+  background-size: 1500px 100px;
+}
+
+.bg-\[length\:1500px_300px\] {
+  background-size: 1500px 300px;
+}
+
+.bg-\[length\:1500px_600px\] {
+  background-size: 1500px 600px;
+}
+
+.bg-\[length\:1500px_800px\] {
+  background-size: 1500px 800px;
+}
+
+.bg-\[length\:1500\%_800\%\] {
+  background-size: 1500% 800%;
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
 }
 
 .bg-fixed {
@@ -651,6 +740,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .bg-no-repeat {
@@ -671,20 +764,8 @@ video {
   padding-bottom: 14px;
 }
 
-.pt-\[89px\] {
-  padding-top: 89px;
-}
-
-.pt-\[8px\] {
-  padding-top: 8px;
-}
-
-.pt-\[10px\] {
-  padding-top: 10px;
-}
-
-.pb-\[10px\] {
-  padding-bottom: 10px;
+.pt-0 {
+  padding-top: 0px;
 }
 
 .text-center {
