@@ -739,6 +739,22 @@ video {
   font-size: 22px;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .leading-\[60px\] {
   line-height: 60px;
 }
