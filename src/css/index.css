@@ -703,6 +703,10 @@ video {
   font-family: Roboto-Regular;
 }
 
+.font-Caveat-Regular {
+  font-family: Caveat-Regular;
+}
+
 .text-\[40px\] {
   font-size: 40px;
 }
