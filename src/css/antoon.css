@@ -8,6 +8,11 @@
 
 @media (min-width: 1430px) {
 
+    #text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 #card2 {
     position: absolute;
     top: 130px;

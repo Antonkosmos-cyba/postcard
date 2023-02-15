@@ -619,12 +619,8 @@ video {
   width: 100%;
 }
 
-.max-w-\[500px\] {
-  max-width: 500px;
-}
-
-.max-w-\[400px\] {
-  max-width: 400px;
+.max-w-\[450px\] {
+  max-width: 450px;
 }
 
 .snap-center {
