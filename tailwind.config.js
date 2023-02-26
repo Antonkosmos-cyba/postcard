@@ -8,6 +8,8 @@ module.exports = {
         'Roboto-Regular':'Roboto-Regular',
         'Roboto-Bold':'Roboto-Bold',
         'Caveat-Regular':'Caveat-Regular',
+        'AlegreyaSans-black':'AlegreyaSans-black',
+        'AlegreyaSans-Medium':'AlegreyaSans-Medium',
       },
     },
 
