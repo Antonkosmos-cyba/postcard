@@ -2,6 +2,11 @@
     border: groove;
     border-color: rgb(246, 255, 0);
     border-width: 15px;
+    margin: 0px;
+}
+
+#margin {
+    margin: 0px;
 }
 
 /* @media (min-width: 1430px) {

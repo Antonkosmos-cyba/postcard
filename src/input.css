@@ -13,6 +13,11 @@
         src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
     }
 
+    @font-face {
+        font-family: "AlegreyaSans-black";
+        src: url("../fonts/Alegreya_Sans/AlegreyaSans-black.ttf") format("truetype");
+    }
+
     /* @import url("./fonts/caveat/Caveat-Regular.ttf"); */
         
 
