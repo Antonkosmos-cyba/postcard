@@ -59,11 +59,11 @@ function images() {
     // '!src/images/icon/*'
     )
 
-    .pipe(
-        webp ({
-            quality: 70
-        })
-    )
+    // .pipe(
+    //     webp ({
+    //         quality: 70
+    //     })
+    // )
     .pipe(dest('dist/images'))
 
     .pipe(src('src/images/**/*.{jpg,png,jpeg,svg,gif}'
