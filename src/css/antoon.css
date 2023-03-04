@@ -2,8 +2,16 @@
     border: groove;
     border-color: rgb(246, 255, 0);
     border-width: 15px;
+    margin: 0px;
 }
 
+<<<<<<< HEAD
+=======
+#margin {
+    margin: 0px;
+}
+
+>>>>>>> ca62837336f7ca35ce9481b92e6abea3a3ba25e2
 /* @media (min-width: 1430px) {
 
 #card2 {
