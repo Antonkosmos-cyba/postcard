@@ -59,15 +59,15 @@ function images() {
     // '!src/images/icon/*'
     )
 
-    .pipe(
-        webp ({
-            quality: 70
-        })
-    )
-    .pipe(dest('dist/images'))
+    // .pipe(
+    //     webp ({
+    //         quality: 70
+    //     })
+    // )
+    // .pipe(dest('dist/images'))
 
-    .pipe(src('src/images/**/*.{jpg,png,jpeg,svg,gif}'
-    ))
+    // .pipe(src('src/images/**/*.{jpg,png,jpeg,svg,gif}'
+    // ))
 
     // .pipe(imagemin(
     // {
@@ -98,6 +98,6 @@ function font(){
 //     watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
     // watch('src/js/**.js', series(js)).on('change', sync.reload)
 // }
-exports.build = series( del, images, media, font, js, css, html)
+exports.build = series(  images, media, font, js, css, html)
 // exports.serve = series(clear, images, font, js, scss, html, serve)
 // exports.clear = del
