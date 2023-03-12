@@ -1,21 +1,16 @@
 #bdgroove {
     border: groove;
-    border-color: rgb(246, 255, 0);
+    border-color: #338bb4;
     border-width: 15px;
 }
 
-@media (min-width: 1430px) {
-
-#card2 {
-    position: absolute;
-    top: 250px;
-    left: 60px;
-}
-
-#card4 {
-    position: absolute;
-    top: 190px;
-    right: 60px;
-}
-
+body {
+    background-image: url(../images/pole1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
