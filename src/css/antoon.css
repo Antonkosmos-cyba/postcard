@@ -1,11 +1,11 @@
 #bdgroove {
     border: groove;
-    border-color: #338bb4;
+    border-color: #231f8f;
     border-width: 15px;
 }
 
 body {
-    background-image: url(../images/pole1.jpg);
+    background-image: url(../images/rusk2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
