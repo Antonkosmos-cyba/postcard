@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/muzik.css">
-    <link rel="stylesheet" href="./css/antoon.css">
+    <!-- <link rel="stylesheet" href="./css/antoon.css"> -->
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="icon" href="./images/muz.png">
     <title>с днём рождения</title>
 </head>
@@ -19,9 +21,46 @@
         <p>С днём рождения Антоха!</p>
         </div>
     </div>
-    <div id="card1">
-        <div id="bdgroove" class="max-w-[450px] h-auto mx-auto mt-5 mb-5">
+    <div id="card1" class="max-w-[450px] h-auto mx-auto mt-5 mb-5">
+        <!-- <div id="bdgroove" class="max-w-[450px] h-auto mx-auto mt-5 mb-5">
         <img class="rounded-3xl" src="./images/anton-1.gif">
+        </div> -->
+        <div class="image-slider">
+          <!-- Обязательная оболочка -->
+          <div class="swiper-wrapper">
+          <!-- Слайды dct -->
+            <div class="swiper-slide">
+                <div class="image-slider_image">
+                  <img src="./images/den-1.webp" alt="Картинка">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider_image">
+                   <img src="./images/den-1.webp" alt="Картинка">
+                   <!-- <p class="subtitle">Lorem</p> -->
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider_image">
+                   <img src="./images/den-1.webp" alt="Картинка">
+                       <!-- <p class="subtitle">Lorem</p> -->
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-slider_image">
+                   <img src="./images/den-1.webp" alt="Картинка">
+                   <!-- <p class="subtitle">Lorem</p> -->
+                </div>
+            </div>
+          </div>
+             <!-- ** Далее идут элементы управления -->
+            <!-- Стрелки управления -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+            <!-- Если нужна пагинация -->
+          <!-- <div class="swiper-pagination"></div> -->
+            <!-- scroll if needed -->
+          <!-- <div class="swiper-scrollbar"></div> -->
         </div>
     </div>
     <div id="card2">
@@ -75,6 +114,8 @@
         </script>
       </div>
     </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 
 </html>

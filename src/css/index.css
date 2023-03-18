@@ -18,7 +18,7 @@
 
 /* @import url("./fonts/caveat/Caveat-Regular.ttf"); */
 
-/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -587,20 +587,12 @@ video {
   margin-right: auto;
 }
 
-.mt-\[10px\] {
-  margin-top: 10px;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-\[10px\] {
   margin-bottom: 10px;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .ml-2 {
@@ -609,6 +601,14 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
 }
 
 .h-auto {
@@ -627,24 +627,24 @@ video {
   scroll-snap-align: center;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.border-\[5px\] {
-  border-width: 5px;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-\[4px\] {
   border-width: 4px;
+}
+
+.border-\[5px\] {
+  border-width: 5px;
 }
 
 .border-white {
@@ -686,14 +686,14 @@ video {
   padding: 0.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pb-\[14px\] {
@@ -716,28 +716,28 @@ video {
   font-family: Roboto-Regular;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[29px\] {
-  font-size: 29px;
+.text-\[22px\] {
+  font-size: 22px;
 }
 
 .text-\[26px\] {
   font-size: 26px;
 }
 
-.text-\[22px\] {
-  font-size: 22px;
+.text-\[29px\] {
+  font-size: 29px;
 }
 
-.leading-\[60px\] {
-  line-height: 60px;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
 }
 
 .text-white {

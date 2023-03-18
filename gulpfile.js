@@ -42,7 +42,7 @@ function css() {
 }
 
 function js(){
-    return src('src/index.js')
+    return src('src/js/script.js')
         .pipe(gulpBabel())
         .pipe(gulpUglify())
         // .pipe(concat('index.js'))
