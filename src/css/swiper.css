@@ -9,13 +9,13 @@
   box-sizing: border-box;
 }
 
-/* html {
-  color: #d1ccf0;
+html {
+  color: #0c6f05;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  background-color: #293ea8;
-} */
+  
+}
 
 html,
 body,
@@ -64,6 +64,7 @@ input::placeholder {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 /* end of the ZERO */
 
@@ -74,12 +75,12 @@ a {
   padding: 20px 0px;
   min-height: 100vh;
 }
-/* .title {
+.title {
   font-size: 40px;
   font-weight: 400;
-  color: azure;
- 
-} */
+  color: #0c6f05;
+  text-align: center;
+}
 /* ----------------------------------- */
 /*& Флекс если нужен будет*/
 /* 
@@ -115,7 +116,7 @@ a {
 /* Стили стрелок! поскольку они иконочным щрифтом, то можно менять стиль */
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
-  color: #fff;
+  color: #12ab18;
   font-size: 30px;
 }
 

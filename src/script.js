@@ -65,7 +65,7 @@ new Swiper('.image-slider', {
       initialSlide: 0,
 
       // Бесконечное прокручивание
-      loop: false,
+      loop: true,
 
       // Количество дублирующих слайдов
       loopedSlides: 3,
@@ -93,16 +93,16 @@ new Swiper('.image-slider', {
       // Смена прозрачности
       // effect: 'fade',
       // fadeEffect: {
-      //    crossFade: true,
+      // crossFade: true,
       // }
 
       // Переворот слайда
-      // effect: 'flip',
-      // flipEffect: {
-         // slideShadows: true,
+      effect: 'flip',
+      flipEffect: {
+         slideShadows: true,
          // Показ только активного слайда
-         // limitRotation: true,
-      // },
+         limitRotation: true,
+      },
 
       // Куб
       // effect: 'cube',
