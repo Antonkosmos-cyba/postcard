@@ -5,7 +5,7 @@ const csso = require('gulp-csso')
 const autoprefixer = require('gulp-autoprefixer')
 // const include = require('gulp-file-include')
 const htmlmin = require('gulp-htmlmin')
-// const imagemin = require ('gulp-imagemin')
+const imagemin = require ('gulp-imagemin')
 const webp = require ('gulp-webp')
 const webphtml = require('gulp-webp-html')
 // const svgsprite = require('gulp-svg-sprite')
@@ -69,14 +69,14 @@ function images() {
     // .pipe(src('src/images/**/*.{jpg,png,jpeg,svg,gif}'
     // ))
 
-    // .pipe(imagemin(
-    // {
-    //     progressive: true,
-    //     svgoPlugins: [{removeViewBox: false}],
-    //     interlaced: true,
-    //     optimizationLevel: 3 //0 to7 
-    // }
-    // ))
+    .pipe(imagemin(
+    {
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+        interlaced: true,
+        optimizationLevel: 3 //0 to7 
+    }
+    ))
     .pipe(dest('dist/images'))
 }
 

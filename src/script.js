@@ -41,7 +41,7 @@ new Swiper('.image-slider', {
       // Угод срабатывания свайпа
       touchAngle: 45,
       // Курсор перетаскивания
-      grabCursor: true,
+      grabCursor: false,
       // Переключение при клике на слайд
       slideToClickedSlide: true,
 
