@@ -142,10 +142,10 @@ a {
   font-size: 60px;
 }
 
-@media (max-width: 760px) {
+/* @media (max-width: 760px) { */
   
-#med {top: 3%;}
-}
+#med {top: 3%;};
+/* } */
 
 
 /* Стили пагинации и буллетов*/

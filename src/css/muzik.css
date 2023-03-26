@@ -1,6 +1,8 @@
 section {
-    display: block;
+    /* display: block; */
+    background-color: #f8db39;
     max-width: 400px;
+    display: block;
     margin: auto;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, .8);
     border-radius: 10px;
@@ -48,9 +50,10 @@ section {
 }
 
 #play {
-    height: 60px;
-    width: 60px;
+    height: 66px;
+    width: 66px;
     border: 0;
+    background-color: #f8db39;
 }
 
 #play:focus {
@@ -59,10 +62,11 @@ section {
 
 
 #pause {
-    height: 60px;
-    width: 60px;
+    height: 66px;
+    width: 66px;
     border: 0;
-    margin-left: 50px;
+    margin-left: 40px;
+    background-color: #f8db39;
 }
 
 #pause:focus {
