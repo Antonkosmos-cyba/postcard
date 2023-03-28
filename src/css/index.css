@@ -566,10 +566,6 @@ video {
   height: auto;
 }
 
-.max-w-\[100\%\] {
-  max-width: 100%;
-}
-
 .max-w-\[500px\] {
   max-width: 500px;
 }
@@ -580,10 +576,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.self-center {
-  align-self: center;
 }
 
 .rounded-2xl {
@@ -634,8 +626,8 @@ video {
   padding-bottom: 14px;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
+.pr-\[15px\] {
+  padding-right: 15px;
 }
 
 .pt-0 {
