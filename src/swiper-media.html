@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="./css/antoon.css">
     <link rel="stylesheet" href="./css/muzik.css">
     <title>Концерт для именинника</title>
+
 </head>
-<body>
+<body style="background-image: url('./images/dnuha3.jpg');">
     <div style="
     width: fit-content;
     margin: 0 auto;
@@ -25,52 +26,56 @@
     <!-- ** модуль слайдера -->
     <!-- главный контейнер -->
         <div class="image-slider"> 
-            <p class="title">Happy Birthday!!!</p> 
-         <!-- Обязательная оболочка -->
-         <div class="swiper-wrapper">
+            <p class="title">&#129395; С днюхой!!! &#129395;</p> 
+        <!-- Обязательная оболочка -->
+        <div class="swiper-wrapper">
             <!-- Слайды dct -->
             <div class="swiper-slide">
-               <div class="image-slider_image">
-                <video src="./media/video/d.mp4" controls width="500px" hight="300px" 
+            <div class="image-slider_image">
+                <video src="./media/video/d.mp4" controls  width="100%" height="auto"
                 poster="./images/den.png">
                 </video>
-                  <!-- <p class="subtitle">Google</p> -->
-               </div>
+                <!-- <p class="subtitle">Google</p> -->
+            </div>
             </div>
             <div class="swiper-slide">
                 <div class="image-slider_image">
                 <video src="./media/video/d2.mp4"
-                controls max-width="500px"
-                height="300px"
+                controls width="100%" height="auto"
                 poster="./images/mult.jpg">
-                 </video>
-                   <!-- <p class="subtitle">Google</p> -->
+                </video>
+                <!-- <p class="subtitle">Google</p> -->
                 </div>
-             </div>
+            </div>
             <div class="swiper-slide">
-               <div class="image-slider_image">
-                <section 
+            <div class="image-slider_image">
+               <section 
                 class="h-auto max-w-[500px] rounded-3xl bg-green-400 mb-3">
                 <img class="img2 rounded-2xl" src="./images/m.jpg">
                 <div class="bruch">
-                  <div class='left text-[26px] px-2 '>
+                    <div class='left text-[26px] px-2 '>
                     <p>Марина Алиева</p>
                     <p class="text-[22px]">песня: <i><br>"С Днем Рождения"</i></p>
-                  </div>
-                  <div class='right'>
-                    <audio id="demo" src="./media/muz/den.mp3">
-                    </audio>
+                    </div>
+                    <div class='right'>
+                    <audio id='demo' src="./media/muz/den.mp3"></audio>
                     <button id='play' type="submit" style="background-image: url('./images/player.png');"
-                      class="bg-no-repeat bg-center bg-cover"></button>
+                    class="bg-no-repeat bg-center bg-cover"></button>
                     <button id='pause' type="submit" style="background-image: url('./images/pauza2.png');"
-                      class="bg-no-repeat bg-center bg-cover "></button>
-                  </div>
-      
-      
+                    class="bg-no-repeat bg-center bg-cover "></button>
+                    </div>
+                    <script>
+                        document.getElementById("play").onclick = function () {
+                        document.getElementById('demo').play();
+                        };
+                        document.getElementById("pause").onclick = function () {
+                        document.getElementById('demo').pause();
+                        }
+                    </script>
                 </div>
               </section>
                   <!-- <p class="subtitle">Google</p> -->
-               </div>
+            </div>
             </div>
             <!-- <div class="swiper-slide">
                <div class="image-slider_image">
@@ -94,8 +99,8 @@
         </div>
             <!-- ** Далее идут элементы управления -->
             <!-- Стрелки управления -->
-        <div id="med" class="swiper-button-prev"></div>
-        <div id="med" class="swiper-button-next"></div>
+        <div id="med_left" class="swiper-button-prev"></div>
+        <div id="med_right" class="swiper-button-next"></div>
             <!-- Если нужна пагинация -->
             <!-- <div class="swiper-pagination"></div> -->
             <!-- scroll if needed -->
@@ -105,13 +110,6 @@
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
-    <script>
-        document.getElementById("play").onclick = function () {
-        document.getElementById('demo').play();
-        };
-        document.getElementById("pause").onclick = function () {
-        document.getElementById('demo').pause();
-        }
-    </script>
+
 </body>
 </html>

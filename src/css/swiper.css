@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-image: url(../images/fon1.jpg);
+  background-image: url(../images/dnuha3.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -103,6 +103,12 @@ a {
   color: #0c6f05;
   text-align: center;
 }
+
+@media (max-width: 430px) {
+  .title{
+    font-size: 36px;
+  }
+}
 /* ----------------------------------- */
 /*& Флекс если нужен будет*/
 /* 
@@ -127,7 +133,8 @@ a {
   margin: 10px auto;
   text-align: center;
   height: 55vh; /** можно регулировать высоту подписи */
-  max-width: 100vw;
+  max-width: 500px;
+  max-height: fit-content;
 }
 
 .image-slider_image img {
@@ -142,10 +149,26 @@ a {
   font-size: 60px;
 }
 
-/* @media (max-width: 760px) { */
+#med_left {
+  top: 3%;
+}
+
+#med_right {
+  top: 3%;
+}
+
+
+@media (max-width: 430px) { 
   
-#med {top: 3%;};
-/* } */
+#med_left {
+  left: 1px;
+}
+
+#med_right {
+  right: 1px;
+}
+
+}
 
 
 /* Стили пагинации и буллетов*/
