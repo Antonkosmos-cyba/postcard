@@ -1,25 +1,22 @@
-@font-face {
-  font-family: "Caveat-Regular";
+/* @font-face {
+        font-family: "Caveat-Regular";
+        src: url("../fonts/caveat/Caveat-Regular.ttf") format("truetype");
+        } */
 
-  src: url("../fonts/caveat/Caveat-Regular.ttf") format("truetype");
-}
+/* @font-face {
+        font-family: "Roboto-Regular";
+        src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: "Roboto-Regular";
-
-  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto-Bold";
-
-  src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
-}
+    @font-face {
+        font-family: "Roboto-Bold";
+        src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+    } */
 
 @font-face {
-  font-family: "AlegreyaSans-black";
+  font-family: "Spectral";
 
-  src: url("../fonts/Alegreya_Sans/AlegreyaSans-black.ttf") format("truetype");
+  src: url("../fonts/Spectral/Spectral.ttf") format("truetype");
 }
 
 /* @import url("./fonts/caveat/Caveat-Regular.ttf"); */
@@ -578,10 +575,6 @@ video {
   max-width: 500px;
 }
 
-.max-w-\[700px\] {
-  max-width: 700px;
-}
-
 .snap-center {
   scroll-snap-align: center;
 }
@@ -674,36 +667,32 @@ video {
   padding-bottom: 14px;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.font-AlegreyaSans-Medium {
-  font-family: AlegreyaSans-Medium;
-}
-
-.font-Roboto-Regular {
-  font-family: Roboto-Regular;
+.font-Spectral {
+  font-family: Spectral;
 }
 
 .text-\[22px\] {
   font-size: 22px;
 }
 
-.text-\[23px\] {
-  font-size: 23px;
-}
-
 .text-\[26px\] {
   font-size: 26px;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-\[36px\] {
