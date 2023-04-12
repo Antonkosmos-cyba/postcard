@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- <link rel="stylesheet" href="./css/index.css"> -->
-   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-   <link rel="stylesheet" href="./css/swiper.css">
-   <!-- <link rel="stylesheet" href="./css/antoon.css"> -->
-   <title>Галерея</title>
-</head>
-<body style="background-image: url(./images/fon2.jpg);">
-   <audio autoplay src="./media/muz/min.mp3"></audio>
-   <div style="
-   width: fit-content;
-   margin: 0 auto;
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- <link rel="stylesheet" href="./css/antoon.css"> -->
+    <title>Галерея</title>
+  </head>
+
+  <body style="background-image: url(./images/fon2.jpg);">
+    <audio autoplay="autoplay" src="./media/muz/min.mp"></audio>
+    <div style="
+    width: fit-content;
+    margin: 0 auto;
       padding-top: 20px;">
       <a href="./index.html">на главную...</a>
-   </div>
-   <div style="margin-left: 10px;
+    </div>
+
+    <div style="margin-left: 10px;
    margin-right: 10px;">
       <div class="wrapper">
-      <!-- ** модуль слайдера -->
-      <!-- главный контейнер -->
-      <div class="image-slider"> 
-         <p class="title">Я и моя семья</p> 
-         <!-- Обязательная оболочка -->
-         <div class="swiper-wrapper">
+        <!-- ** модуль слайдера -->
+        <!-- главный контейнер -->
+        <div class="image-slider">
+          <marquee direction="right" behavior="alternate">
+            <img style="max-width: 90px;" src="./images/tanes.gif" alt="">
+            <!-- <img style="max-width: 70px;" src="./images/roza.gif" alt=""> -->
+            <img style="max-width: 500px;" src="./images/tort.gif" alt="">
+            <img style="max-width: 90px;" src="./images/tanes.gif">
+          </marquee>
+          <!-- <p class="title">фото Светланы</p> -->
+          <!-- Обязательная оболочка -->
+          <div class="swiper-wrapper">
             <!-- Слайды dct -->
             <div class="swiper-slide">
-               <div class="image-slider_image">
-                  <img src="./images/gar/sveta1.jpeg" alt="Картинка">
-               </div>
+              <div class="image-slider_image">
+                <img style="border-radius: 20px;" src="./images/gar/sveta1.jpeg" alt="Картинка">
+              </div>
             </div>
             <div class="swiper-slide">
-               <div class="image-slider_image">
-                  <img src="./images/gar/sveta2.jpeg" alt="Картинка">
-               </div>
+              <div class="image-slider_image">
+                <img style="border-radius: 20px;" src="./images/gar/sveta2.jpeg" alt="Картинка">
+              </div>
             </div>
             <div class="swiper-slide">
-               <div class="image-slider_image">
-                  <img src="./images/gar/sveta3.jpeg" alt="Картинка">
-               </div>
+              <div class="image-slider_image">
+                <img style="border-radius: 20px;" src="./images/gar/sveta3.jpeg" alt="Картинка">
+              </div>
             </div>
-            <!-- <div class="swiper-slide">
-               <div class="image-slider_image">
-                  <img src="./images/gar/4.jpg" alt="Картинка">
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="image-slider_image">
-                  <img src="./images/gar/5.jpg" alt="Картинка">
-               </div>
-            </div> -->
+            <!-- <div class="swiper-slide"> <div class="image-slider_image"> <img src="./images/gar/4.jpg" alt="Картинка"> </div> </div> <div class="swiper-slide"> <div class="image-slider_image"> <img src="./images/gar/5.jpg" alt="Картинка"> </div> </div> -->
             <!-- И так далее -->
-         </div>
-            <!-- ** Далее идут элементы управления -->
-            <!-- Стрелки управления -->
-         <div id="med_left" class="swiper-button-prev"></div>
-         <div id="med_right" class="swiper-button-next"></div>
-            <!-- Если нужна пагинация -->
-         <!-- <div class="swiper-pagination"></div> -->
-            <!-- scroll if needed -->
-         <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+          <!-- ** Далее идут элементы управления -->
+          <!-- Стрелки управления -->
+          <div id="med_left" class="swiper-button-prev"></div>
+          <div id="med_right" class="swiper-button-next"></div>
+          <!-- Если нужна пагинация -->
+          <!-- <div class="swiper-pagination"></div> -->
+          <!-- scroll if needed -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
       </div>
-   </div>
-   </div>
-   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-   <script src="./script.js"></script>
-</body>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+
 </html>

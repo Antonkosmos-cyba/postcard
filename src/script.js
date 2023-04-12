@@ -65,10 +65,10 @@ new Swiper('.image-slider', {
       initialSlide: 0,
 
       // Бесконечное прокручивание
-      loop: true,
+      loop: false,
 
       // Количество дублирующих слайдов
-      loopedSlides: 3,
+      // loopedSlides: 3,
 
       // Автопрокрутка слайдов
       // autoplay: {
