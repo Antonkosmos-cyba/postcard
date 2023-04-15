@@ -55,7 +55,7 @@ function del() {
 }
 
 function images() {
-    return src('src/images/**/*.{jpg,png,jpeg,gif}',
+    return src('src/images/**/*.{jpg,png,jpeg,webp,gif}',
     // '!src/images/icon/*'
     )
 

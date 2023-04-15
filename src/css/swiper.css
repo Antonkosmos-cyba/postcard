@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  background-image: url("../images/fon3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -160,7 +161,7 @@ a {
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
   color: #12ab18;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 #med_left {
@@ -175,11 +176,11 @@ a {
 @media (max-width: 430px) { 
   
 #med_left {
-  left: -15px;
+  left: -5px;
 }
 
 #med_right {
-  right: -15px;
+  right: -5px;
 }
 
 }

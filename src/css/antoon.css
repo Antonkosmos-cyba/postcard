@@ -18,9 +18,9 @@ pre {
     font-size: 23px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
     pre {
-    font-size: 10px;  
+    font-size: 14px;  
     }
 }
 

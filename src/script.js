@@ -65,7 +65,7 @@ new Swiper('.image-slider', {
       initialSlide: 0,
 
       // Бесконечное прокручивание
-      loop: false,
+      loop: true,
 
       // Количество дублирующих слайдов
       // loopedSlides: 3,
