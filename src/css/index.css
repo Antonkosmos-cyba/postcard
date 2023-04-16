@@ -534,8 +534,9 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.top-0 {
-  top: 0px;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-auto {
@@ -575,14 +576,6 @@ video {
   max-width: 500px;
 }
 
-.snap-center {
-  scroll-snap-align: center;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -597,10 +590,6 @@ video {
 
 .rounded-3xl {
   border-radius: 1.5rem;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .bg-green-400 {
@@ -627,16 +616,8 @@ video {
   --tw-gradient-to: #f472b6;
 }
 
-.bg-\[length\:100\%_100\%\] {
-  background-size: 100% 100%;
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
 }
 
 .bg-center {

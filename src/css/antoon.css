@@ -1,6 +1,6 @@
 #bdgroove {
     border: groove;
-    border-color: rgb(246, 255, 0);
+    border-color: rgb(255, 91, 162);
     border-width: 15px;
     margin: 0px;
 }
@@ -9,10 +9,10 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 }
 pre {
     font-size: 23px;

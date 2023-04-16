@@ -23,14 +23,13 @@ html {
 }
 
 body {
-  background-image: url("../images/fon3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -80,7 +79,7 @@ input::placeholder {
 }
 
 a {
-  color: inherit;
+  color: #1bd10e;
   text-decoration: none;
   cursor: pointer;
   font-size: 25px;
@@ -105,7 +104,7 @@ a {
 .title {
   font-size: 50px;
   font-weight: 400;
-  color: #0c6f05;
+  color: #1bd10e;
   text-align: center;
 }
 
@@ -160,7 +159,7 @@ a {
 /* Стили стрелок! поскольку они иконочным щрифтом, то можно менять стиль */
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
-  color: #12ab18;
+  color: #1bd10e;
   font-size: 40px;
 }
 
