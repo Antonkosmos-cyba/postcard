@@ -14,3 +14,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+@media (max-width: 430px) {
+    .text-ps {
+    font-size: 20px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .text-p {
+    font-size: 30px;  
+    }
+}
