@@ -11,19 +11,19 @@ body {
     background-position: center center;
     background-size: auto;
 }
-pre {
+#text {
     font-size: 23px;
 }
 
 @media (max-width: 430px) {
-    pre {
-    font-size: 12px;  
+    #text {
+    font-size: 17px;  
     }
 }
 
-@media (max-width: 768px) {
-    pre {
-    font-size: 17px;  
+@media (max-width: 378px) {
+    #text {
+    font-size: 12px;  
     }
 }
 

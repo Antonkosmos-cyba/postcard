@@ -98,6 +98,6 @@ function font(){
 //     watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
     // watch('src/js/**.js', series(js)).on('change', sync.reload)
 // }
-exports.build = series( del, images, media, font, js, css, html)
+exports.build = series(del, images, media, font, js, css, html)
 // exports.serve = series(clear, images, font, js, scss, html, serve)
 // exports.clear = del
