@@ -643,12 +643,18 @@ video {
   padding-right: 15px;
 }
 
-.pb-\[14px\] {
-  padding-bottom: 14px;
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pb-\[14px\] {
+  padding-bottom: 14px;
 }
 
 .text-center {
@@ -679,8 +685,8 @@ video {
   font-size: 40px;
 }
 
-.leading-8 {
-  line-height: 2rem;
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .leading-\[60px\] {
