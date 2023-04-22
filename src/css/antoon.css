@@ -1,4 +1,5 @@
-#bdgroove {
+#bdgroove,
+#bdgroove2 {
     border: groove;
     border-color: rgb(255, 91, 162);
     border-width: 15px;
@@ -25,20 +26,31 @@ body {
     #text {
     font-size: 17px;
     }
+    #bdgroove2{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
 }
 
-/* @media (min-width: 1430px) {
-
-#card2 {
-    position: absolute;
-    top: 250px;
-    left: 60px;
+.gradient{
+    animation: gradient 3s ease-in-out infinite;
+    background: linear-gradient(90deg, rgb(67, 208, 62) 0%, rgba(9,97,121,1) 49%, rgb(250, 0, 0) 100%);
+    background-size: 500%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#card4 {
-    position: absolute;
-    top: 190px;
-    right: 60px;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-} */
+
