@@ -17,6 +17,7 @@ const gulpUglify = require('gulp-uglify')
 const clean = require('gulp-clean')
 // const sync = require('browser-sync').create()
 // import imagemin from 'gulp-imagemin';
+const removeComments = require('gulp-strip-css-comments')
 function html(){
     return src('src/**/**.html')
     // .pipe(include({
@@ -38,6 +39,7 @@ function css() {
     }))
     .pipe(csso())
     // .pipe(concat('index.css'))
+    .pipe(removeComments())
     .pipe(dest('dist/css'))
 }
 
