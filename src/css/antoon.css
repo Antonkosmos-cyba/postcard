@@ -52,3 +52,40 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.moove {
+    animation: showup 10s;
+}
+
+@keyframes showup {
+    0% {font-size: 40px; color: #ec5454;}
+    25% {font-size: 30px; color: #8cc720;}
+    50% {font-size: 42px; color: #2026c7;}
+    75% {font-size: 30px; color: #2bd7c3;}
+    100% { font-size: 40px; color: #bb3a3a;}
+  }
+
+  @keyframes slidein {
+    0% {margin-right: 700px; color: #3427ab;}
+    50% {margin-left: 900px; color: #1aa040;}
+    80% {margin-left: 0px; color: #dac20d;}
+    100% {margin: 0 auto; color: #3427ab;}
+  }
+
+  /* @keyframes wave {
+    0% {padding-top: 40px; margin-left: -200px; color: #3427ab;}
+    20% {padding-top: 0px; margin-left: 0px; color: #279eab;}
+    40% {padding-top: 40px; margin-left: 200px; color: #e8e10f;}
+    60% {padding-top: 0px; margin-left: 0px; color: #e61f0d;}
+    80% {padding-top: 40px; margin-left: -200px; color: #1e0dda;}
+    100% {padding-top: 0px;margin: 0 auto; color: green}
+  }
+
+  @keyframes wave1 {
+    0% {padding-top: 190px; margin-left: -200px; color: #3427ab;}
+    20% {padding-top: 0px; margin-left: 0px; color: #279eab;}
+    40% {padding-top: 40px; margin-left: 200px; color: #e8e10f;}
+    60% {padding-top: 0px; margin-left: 0px; color: #e61f0d;}
+    80% {padding-top: 40px; margin-left: -200px; color: #1e0dda;}
+    100% {padding-top: 100px;margin: 0 auto; color: green}
+  } */

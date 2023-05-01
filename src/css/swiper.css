@@ -103,6 +103,10 @@ a {
   font-weight: 400;
   color: #1bd10e;
   text-align: center;
+  background-color: #fff;
+  max-width: 600px;
+  opacity: 0.9;
+  margin: 0px auto auto;
 }
 
 @media (max-width: 430px) {
