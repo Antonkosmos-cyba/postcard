@@ -76,7 +76,7 @@ input::placeholder {
 }
 
 a {
-  color: #1bd10e;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   font-size: 25px;
@@ -101,11 +101,11 @@ a {
 .title {
   font-size: 50px;
   font-weight: 400;
-  color: #1bd10e;
+  color: #fff;
   text-align: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   max-width: 600px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   margin: 0px auto auto;
 }
 
