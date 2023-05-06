@@ -87,7 +87,7 @@ a {
 /*^ Для более комфортного отображения */
 
 .wrapper {
-  padding: 20px 0px;
+  padding: 0px 0px;
   min-height: 100vh;
 }
 
@@ -118,7 +118,7 @@ a {
 
 @media (max-width: 380px) {
   .title{
-    font-size: 28px;
+    font-size: 20px;
   }
   a{
     font-size: 20px;

@@ -1,10 +1,10 @@
-#bdgroove,
+/* #bdgroove,
 #bdgroove2 {
     border: groove;
     border-color: rgb(255, 91, 162);
     border-width: 15px;
     margin: 0px;
-}
+} */
 
 body {
     background-attachment: fixed;
@@ -53,23 +53,27 @@ body {
     }
 }
 
-.moove {
-    animation: showup 10s;
+.border {
+    animation: border 20s infinite;
 }
 
-@keyframes showup {
-    0% {font-size: 40px; color: #ec5454;}
-    25% {font-size: 30px; color: #8cc720;}
-    50% {font-size: 42px; color: #2026c7;}
-    75% {font-size: 30px; color: #2bd7c3;}
-    100% { font-size: 40px; color: #bb3a3a;}
+.font-size {
+    animation: font-size 20s infinite;
+}
+
+@keyframes border {
+    0% {border: groove 10px #2da24a; border-radius: 5px;}
+    25% {border: double 10px #f6ea4a; border-radius: 10px;}
+    50% {border: dotted 10px #20c7ab; border-radius: 15px;}
+    75% {border: transparent 10px #bb3a3a; border-radius: 20px;}
+    100% { border: groove 10px #2da24a; border-radius: 5px;}
   }
 
-  @keyframes slidein {
-    0% {margin-right: 700px; color: #3427ab;}
-    50% {margin-left: 900px; color: #1aa040;}
-    80% {margin-left: 0px; color: #dac20d;}
-    100% {margin: 0 auto; color: #3427ab;}
+  @keyframes font-size {
+    0% {font-size: 20px; color: #3427ab;}
+    50% {font-size: 30px; color: #1aa040;}
+    80% {font-size: 35px; color: #da0d0d;}
+    100% {font-size: 20px; color: #3427ab;}
   }
 
   /* @keyframes wave {
