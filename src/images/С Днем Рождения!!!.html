@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/src/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./С Днем Рождения!!!_files/index.css">
+    <link rel="stylesheet" href="./С Днем Рождения!!!_files/muzik.css">
+    <link rel="stylesheet" href="./С Днем Рождения!!!_files/antoon.css">
+    <link rel="icon" href="http://127.0.0.1:5500/src/images/muz.png">
+    <title>С Днем Рождения!!!</title>
+  </head>
+
+  <body style="background-image: url(&#39;./images/fon1.jpeg&#39;);">
+    <div class="px-3">
+      <div class="max-w-[500px] rounded-2xl h-auto bg-gradient-to-r from-green-500 via-green-200 to-green-500 mx-auto border" style="margin: 10px auto 15px auto;">
+        <div class="font-size text-[40px] pb-[14px] mx-1 mt-[10px] mb-[10px] text-center leading-[60px] text-green-800 font-Spectral">
+          <p>С Днём Рождения папа !!!</p>
+        </div>
+      </div>
+
+      <div class="mx-auto border rounded-2xl max-w-[500px]  text-center h-auto bg-gradient-to-r from-green-500 via-green-200 to-green-500" style="margin-bottom: 15px;">
+
+        <!-- <img class="h-[100%] rounded-[15px]" src="./images/fon1.gif"> -->
+
+        <a class="text-[36px] text-green-800 font-Spectral gradient" href="http://127.0.0.1:5500/src/swiper.html">Галерея...</a>
+      </div>
+
+      <!-- <div id="card2" style="margin-bottom: 15px;"> <div id="bdgroove2" class="h-auto rounded-2xl max-w-[500px] bg-gradient-to-r from-green-500 via-green-200 to-green-500 backdrop-blur-xl mx-auto py-8 px-[40px] leading-10"> <p id="text" class=" text-green-900 font-spectral"> Ты на год прекрасней стала,<br> И сильнее, и мудрей.<br> Впереди еще немало<br> У тебя чудесных дней.<br> <br> Пусть тебе сияет счастье <br> Солнцем в небе голубом. <br> Пусть любовью и уютом <br> Будет твой наполнен дом. <br><br> Пусть в твоей найдется жизни <br> Место радостной мечте. <br> В день рождения желаю<br> Быть всегда на высоте! <br> </p> </div> </div> -->
+
+      <div id="bdgroove" class="border rounded-2xl h-auto bg-gradient-to-r from-green-500 via-green-200 to-green-500 max-w-[500px] mx-auto" style="margin-bottom: 15px;">
+        <div class="text-[28px] text-center mt-[10px] mb-[10px] leading-[60px] text-green-800 font-Spectral flex justify-center">
+          <img style="width: 50px; height: 50px;" src="./С Днем Рождения!!!_files/gitara.gif" alt="">
+          <a class="gradient px-3" href="http://127.0.0.1:5500/src/swiper-media.html">Концерт для папы!!</a>
+          <img style="width: 50px; height: 50px;" src="./С Днем Рождения!!!_files/tanec.gif" alt="">
+        </div>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
