@@ -524,24 +524,14 @@ video {
   margin-right: 0.25rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .mb-3 {
@@ -607,13 +597,53 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-rose-500 {
+  --tw-gradient-from: #f43f5e;
+  --tw-gradient-to: rgb(244 63 94 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-red-500 {
+  --tw-gradient-from: #ef4444;
+  --tw-gradient-to: rgb(239 68 68 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-red-700 {
+  --tw-gradient-from: #b91c1c;
+  --tw-gradient-to: rgb(185 28 28 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-green-200 {
   --tw-gradient-to: rgb(187 247 208 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #bbf7d0, var(--tw-gradient-to);
 }
 
+.via-rose-200 {
+  --tw-gradient-to: rgb(254 205 211 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fecdd3, var(--tw-gradient-to);
+}
+
+.via-red-200 {
+  --tw-gradient-to: rgb(254 202 202 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fecaca, var(--tw-gradient-to);
+}
+
 .to-green-500 {
   --tw-gradient-to: #22c55e;
+}
+
+.to-rose-500 {
+  --tw-gradient-to: #f43f5e;
+}
+
+.to-red-500 {
+  --tw-gradient-to: #ef4444;
+}
+
+.to-red-700 {
+  --tw-gradient-to: #b91c1c;
 }
 
 .bg-cover {
@@ -636,11 +666,6 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .px-\[40px\] {
@@ -673,16 +698,16 @@ video {
   font-size: 26px;
 }
 
+.text-\[28px\] {
+  font-size: 28px;
+}
+
 .text-\[36px\] {
   font-size: 36px;
 }
 
 .text-\[40px\] {
   font-size: 40px;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
 }
 
 .leading-10 {

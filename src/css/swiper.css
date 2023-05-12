@@ -25,8 +25,8 @@ html {
 body {
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
   overflow-x: hidden;
   overflow-y: hidden;
 }

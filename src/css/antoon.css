@@ -9,8 +9,8 @@
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
 }
 #text {
     font-size: 26px;
@@ -62,17 +62,17 @@ body {
 }
 
 @keyframes border {
-    0% {border: groove 10px #2da24a; border-radius: 5px;}
-    25% {border: double 10px #f6ea4a; border-radius: 10px;}
-    50% {border: dotted 10px #20c7ab; border-radius: 15px;}
+    0% {border: groove 10px #b00b0b; border-radius: 5px;}
+    25% {border: double 10px #d00a0a; border-radius: 10px;}
+    50% {border: dotted 10px #9d0505; border-radius: 15px;}
     75% {border: transparent 10px #bb3a3a; border-radius: 20px;}
-    100% { border: groove 10px #2da24a; border-radius: 5px;}
+    100% { border: groove 10px #b00b0b; border-radius: 5px;}
   }
 
   @keyframes font-size {
     0% {font-size: 20px; color: #3427ab;}
-    50% {font-size: 30px; color: #1aa040;}
-    80% {font-size: 35px; color: #da0d0d;}
+    50% {font-size: 30px; color: #7f107c;}
+    80% {font-size: 35px; color: #0c8223;}
     100% {font-size: 20px; color: #3427ab;}
   }
 
