@@ -40,12 +40,24 @@ body {
     animation: font-size 15s infinite;
 }
 
+.foto {
+    animation: foto 15s infinite;
+}
+
 @keyframes border {
     0% {border: groove 10px #b00b0b; border-radius: 5px;}
     25% {border: double 10px #d00a0a; border-radius: 10px;}
     50% {border: dotted 10px #9d0505; border-radius: 15px;}
     75% {border: transparent 10px #bb3a3a; border-radius: 20px;}
     100% { border: groove 10px #b00b0b; border-radius: 5px;}
+  }
+
+  @keyframes foto {
+    0% {transform: scaleX(-1);}
+    25% {transform: scaleX(0);}
+    50% {transform: scaleX(1);}
+    75% {transform: scaleX(0);}
+    100% {transform: scaleX(-1);}
   }
 
   @keyframes font-size {
