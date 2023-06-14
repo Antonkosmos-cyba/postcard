@@ -587,6 +587,10 @@ video {
   border-radius: 15px;
 }
 
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -704,6 +708,10 @@ video {
 
 .leading-\[60px\] {
   line-height: 60px;
+}
+
+.leading-\[39px\] {
+  line-height: 39px;
 }
 
 .text-green-800 {
